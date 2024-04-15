@@ -1,4 +1,4 @@
 package com.example.demo.Entidades;
 
-public class Provincia {
+public class Boca1GodoyCruz0 {
 }
