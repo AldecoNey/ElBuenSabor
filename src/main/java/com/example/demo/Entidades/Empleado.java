@@ -11,8 +11,10 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Empresa {
+public class Empleado {
     private String nombre;
-    private String razonSocial;
-    private int cuil;
+    private String apellido;
+    private String telefono;
+    private String email;
+    //Falta el atributo perfil (Enum)
 }

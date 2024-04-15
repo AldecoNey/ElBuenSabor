@@ -9,10 +9,11 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
-public class Empresa {
+@NoArgsConstructor
+public class Cliente {
     private String nombre;
-    private String razonSocial;
-    private int cuil;
+    private String apellido;
+    private String telefono;
+    private String email;
 }

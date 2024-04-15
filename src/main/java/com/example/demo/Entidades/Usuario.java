@@ -9,10 +9,9 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
-public class Empresa {
-    private String nombre;
-    private String razonSocial;
-    private int cuil;
+@NoArgsConstructor
+public class Usuario {
+    private String auth0Id;
+    private String username;
 }
