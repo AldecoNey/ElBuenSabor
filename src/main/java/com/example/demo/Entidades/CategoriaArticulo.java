@@ -15,6 +15,5 @@ import java.util.List;
 @NoArgsConstructor
 public class CategoriaArticulo {
     private String denominacion;
-    private CategoriaArticulo categoriaPadre;
     private List<CategoriaArticulo> subCategorias;
 }
