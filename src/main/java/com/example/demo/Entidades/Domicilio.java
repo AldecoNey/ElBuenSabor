@@ -11,9 +11,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-
-public class Empresa {
-    private String nombre;
-    private String razonSocial;
-    private int cuil;
+public class Domicilio {
+    private String calle;
+    private Integer numero;
+    private Integer cp;
 }
