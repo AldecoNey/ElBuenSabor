@@ -12,8 +12,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class Empresa {
+public class SucursalEmpresa {
     private String nombre;
-    private String razonSocial;
-    private int cuil;
+    private String horarioApertura;
+    private String horarioCierre;
 }
